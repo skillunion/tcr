@@ -82,12 +82,17 @@ module.exports = (done) => {
     console.log(`Dispensing ${config.token.supply} tokens evenly to ${config.token.tokenHolders.length} addresses:`);
     console.log('');
 
+    config.token.tokenHolders.map(async (account) => {
+      console.log(`Transferring tokens to address: ${account}`);
+      return await tokenProxy.transfer(account, evenTokenDispensation);
+    })
+    /*
     await Promise.all(config.token.tokenHolders.map(async (account) => {
       console.log(`Transferring tokens to address: ${account}`);
       return tokenProxy.transfer(account, evenTokenDispensation);
     }));
+    */
     /* eslint-enable no-console */
-
     return true;
   }
 
