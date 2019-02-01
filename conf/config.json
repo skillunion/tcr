@@ -22,6 +22,7 @@
     "decimals": "18",
     "symbol": "TEST",
     "tokenHolders": [
+      "0x7AD1a95c592aCF1111cB58539647205D91f9AB16",	    
       "0xd09cc3bc67e4294c4a446d8e4a2934a921410ed7",
       "0x8FEa967fF3E8B14498BC17D8d43E8cdd614613c7",
       "0x874Fec5f1D5045B85f46fBD2Be6264867c3D7cE5",
