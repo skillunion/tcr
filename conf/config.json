@@ -17,7 +17,7 @@
 	},
   "name": "The TestChain Registry",
   "token": {
-    "supply": "1000000000000000000000000000",
+    "supply": "1000000000000000000000000000000",
     "name": "TestCoin",
     "decimals": "18",
     "symbol": "TEST",

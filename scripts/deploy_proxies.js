@@ -15,7 +15,7 @@ module.exports = (done) => {
     if (networkID === '1') {
       registryFactoryAddress = '0xcc0df91b86795f21c3d43dbeb3ede0dfcf8dccaf'; // mainnet
     } else if (networkID === '4') {
-      registryFactoryAddress = '0x2bddfc0c506a00ea3a6ccea5fbbda8843377dcb1'; // rinkeby
+      registryFactoryAddress = '0xeacbd644f0050f556b618e9b7e6d1bd203198a73'; // rinkeby
     } else {
       registryFactoryAddress = RegistryFactory.address; // development
     }

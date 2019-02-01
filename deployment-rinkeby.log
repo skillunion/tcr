@@ -1,0 +1,109 @@
+2019-02-01T15:19:00
+
+Using network 'rinkeby'.
+
+Running migration: 1_initial_migration.js
+  Deploying Migrations...
+  ... 0x51611a7f3b0cdbe3c0c49ef8ec85c2e747f80d41426034811a3ec55a19906b0f
+  Migrations: 0x5c3af5a99dcce97dfa9930ba2221c857b812497e
+Saving successful migration to network...
+  ... 0x9327651cd0a4157aaf9f2a2c0442f01eae304cc05e674b745d48bd3736f2fc71
+Saving artifacts...
+Running migration: 2_libs.js
+  Deploying DLL...
+  ... 0x07e5491bece3ec4b6092f77398b15dceb1a05613c71f2b12f391d0d0ad86f88d
+  DLL: 0x05e2c1dd5735ffb072fca9d0c4a99e3194bdfa8b
+  Deploying AttributeStore...
+  ... 0x29480a5c85b1e7244cbaddfe48deac6b42e1867469a73e71805a74c3e3da7fbd
+  AttributeStore: 0xcb99dc1ada92f8b308ae859177c536bf3ff46a16
+Saving successful migration to network...
+  ... 0x042a8aa3d0b92b0a4e4e1aed95cd76d33a1462f56ecbf0e1db78d4ea78921781
+Saving artifacts...
+Running migration: 3_optional_plcr_factory.js
+  Linking DLL to PLCRFactory
+  Linking AttributeStore to PLCRFactory
+  Deploying PLCRFactory...
+  ... 0x43f9763162d6b597b4fbc7eec6abaa2a8aba9d525e5751ff843dc2e267b9f270
+  PLCRFactory: 0x98d6e7c850056d078ffbac5f4203c2cef7783499
+Saving successful migration to network...
+  ... 0x775f4218ef22684392248edb865080add922ad671ef842aa451ebced6fc72439
+Saving artifacts...
+Running migration: 4_parameterizer_factory.js
+  Deploying ParameterizerFactory...
+  ... 0x141f29afe74dbb82d21c50e67cbc8827e8f9cefe9d0bb33d6423374c008fc320
+  ParameterizerFactory: 0x5644e22d119dcef39b2c6b9e5d44b59b91b0058a
+Saving successful migration to network...
+  ... 0x925108ed4395e43cae0d1204799768e65bfda8824b4cd902d4007961af560c16
+Saving artifacts...
+Running migration: 5_registry_factory.js
+  Deploying RegistryFactory...
+  ... 0x549fbde649bec4b6f9fbe820df6b3aca639f28c045d76c990458920de8afd811
+  RegistryFactory: 0xeacbd644f0050f556b618e9b7e6d1bd203198a73
+Saving successful migration to network...
+  ... 0xcb93172eff6bf2fea38cbda2d7ebe3e94472996337de7131ae96e12559bac211
+Saving artifacts...
+
+
+Using network 'rinkeby'.
+
+Using RegistryFactory at:
+     0xeacbd644f0050f556b618e9b7e6d1bd203198a73
+
+Deploying proxy contracts...
+...
+Proxy contracts successfully migrated to network_id: 4
+
+TestCoin (EIP20):
+     0x275a534de27697989d04dd7a8a3f14c682be2f51
+PLCRVoting:
+     0x1ebc0abc69f3b0c67f1b6d61df1f8444d6b1044b
+Parameterizer:
+     0xaa9e6ecaa21eafc24d2c2ddfc8bc1e9c2542c310
+The TestChain Registry (Registry):
+     0xacec8b2976d3f822e250194a7e5c1b531352d7da
+
+Dispensing 1000000000000000000000000000 tokens evenly to 10 addresses:
+
+Transferring tokens to address: 0x7AD1a95c592aCF1111cB58539647205D91f9AB16
+Transferring tokens to address: 0xd09cc3bc67e4294c4a446d8e4a2934a921410ed7
+Transferring tokens to address: 0x8FEa967fF3E8B14498BC17D8d43E8cdd614613c7
+Transferring tokens to address: 0x874Fec5f1D5045B85f46fBD2Be6264867c3D7cE5
+Transferring tokens to address: 0xf978cC95Eba88cC8869e580d282620e3b4382016
+Transferring tokens to address: 0x4fB9dEA18CDf6f737afDfc3f680Fb5500F8F893A
+Transferring tokens to address: 0xf17f52151EbEF6C7334FAD080c5704D77216b732
+Transferring tokens to address: 0xC5fdf4076b8F3A5357c5E395ab970B5B54098Fef
+Transferring tokens to address: 0x821aEa9a577a9b44299B9c15c88cf3087F3b5544
+Transferring tokens to address: 0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+
+2019-02-01T17:16:00
+
+Using network 'rinkeby'.
+
+Using RegistryFactory at:
+     0xeacbd644f0050f556b618e9b7e6d1bd203198a73
+
+Deploying proxy contracts...
+...
+Proxy contracts successfully migrated to network_id: 4
+
+TestCoin (EIP20):
+     0xdfdbe51f4311811710c376b2c25c10c7808ccf55
+PLCRVoting:
+     0x3ffd3120607aeaddae5e9c27df93557f6b7d3670
+Parameterizer:
+     0x3884adc5245f463b632190c6c56095119d36bb2f
+The TestChain Registry (Registry):
+     0x05aedf5ffac7017515331e713afef2892bc5a681
+
+Dispensing 1000000000000000000000000000000 tokens evenly to 10 addresses:
+
+Transferring tokens to address: 0x7AD1a95c592aCF1111cB58539647205D91f9AB16
+Transferring tokens to address: 0xd09cc3bc67e4294c4a446d8e4a2934a921410ed7
+Transferring tokens to address: 0x8FEa967fF3E8B14498BC17D8d43E8cdd614613c7
+Transferring tokens to address: 0x874Fec5f1D5045B85f46fBD2Be6264867c3D7cE5
+Transferring tokens to address: 0xf978cC95Eba88cC8869e580d282620e3b4382016
+Transferring tokens to address: 0x4fB9dEA18CDf6f737afDfc3f680Fb5500F8F893A
+Transferring tokens to address: 0xf17f52151EbEF6C7334FAD080c5704D77216b732
+Transferring tokens to address: 0xC5fdf4076b8F3A5357c5E395ab970B5B54098Fef
+Transferring tokens to address: 0x821aEa9a577a9b44299B9c15c88cf3087F3b5544
+Transferring tokens to address: 0x627306090abaB3A6e1400e9345bC60c78a8BEf57
