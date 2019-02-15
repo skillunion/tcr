@@ -71,5 +71,43 @@ contract RegistryFactory {
         emit NewRegistry(msg.sender, token, plcr, parameterizer, registry);
         return registry;
     }
+
+    /*
+    @dev deploys and initializes a new Registry contract, an EIP20, a PLCRVoting, and Parameterizer
+        to be consumed by the Registry's initializer.
+    @param _supply          the total number of tokens to mint in the EIP20 contract
+    @param _name            the name of the new EIP20 token
+    @param _decimals        the decimal precision to be used in rendering balances in the EIP20 token
+    @param _symbol          the symbol of the new EIP20 token
+    
+    @dev                Allows a user to start an application. Takes tokens from user and sets
+                        apply stage end time.
+    @param _listingHash The hash of a potential listing a user is applying to add to the registry
+    @param _amount      The number of ERC20 tokens a user is willing to potentially stake
+    @param _data        Extra data relevant to the application. Think IPFS hashes.
+    */
+    function newRegistryWithToken_ThenApply(
+        uint _supply,
+        string _tokenName,
+        uint8 _decimals,
+        string _symbol,
+        uint[] _parameters,
+        string _registryName,
+        // ============== Apply interface =======
+        bytes32 _listingHash, 
+        uint _amount, 
+        string _data
+    ) public returns (Registry) {
+        Registry registry = newRegistryWithToken(
+            _supply,
+            _tokenName,
+            _decimals,
+            _symbol,
+            _parameters,
+            _registryName
+        );
+
+        registry.apply(_listingHash, _amount, _data);
+    }
 }
 

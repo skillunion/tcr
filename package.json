@@ -7,7 +7,7 @@
     "compile": "truffle compile",
     "publish": "truffle publish",
     "coverage": "solidity-coverage",
-    "deploy-rinkeby": "truffle migrate --network rinkeby",
+    "deploy-rinkeby": "truffle migrate --network rinkeby --reset",
     "deploy-ganache": "truffle migrate --network ganache",
     "deploy-mainnet": "truffle migrate --network mainnet",
     "deploy-proxies:rinkeby": "truffle exec --network rinkeby ./scripts/deploy_proxies.js",

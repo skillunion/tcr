@@ -15,7 +15,10 @@ module.exports = (done) => {
     if (networkID === '1') {
       registryFactoryAddress = '0xcc0df91b86795f21c3d43dbeb3ede0dfcf8dccaf'; // mainnet
     } else if (networkID === '4') {
-      registryFactoryAddress = '0x2bddfc0c506a00ea3a6ccea5fbbda8843377dcb1'; // rinkeby
+      registryFactoryAddress = !!process.env.REGISTRY_FACTORY 
+		             ? process.env.REGISTRY_FACTORY 
+               : '0xcadbaef815819385e79d6f739ce6796563373e15';   // rinkeby
+               //: '0x2bddfc0c506a00ea3a6ccea5fbbda8843377dcb1'; // rinkeby
     } else {
       registryFactoryAddress = RegistryFactory.address; // development
     }
@@ -50,7 +53,9 @@ module.exports = (done) => {
         paramConfig.exitTimeDelay,
         paramConfig.exitPeriodLen,
       ],
-      config.name,
+      !!process.env.REGISTRY_NAME 
+        ? process.env.REGISTRY_NAME
+        :config.name,
     );
 
     const {

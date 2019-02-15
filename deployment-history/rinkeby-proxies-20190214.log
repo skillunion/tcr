@@ -1,0 +1,76 @@
+human@AllDev:~/work/SkillUnion/nonorg-ui$ ./deploy-rinkeby.sh 
+./deploy-rinkeby.sh: line 3: export: `=': not a valid identifier
+~/work/SkillUnion/tcr ~/work/SkillUnion/nonorg-ui
+
+> sol-tcr@0.0.1 deploy-proxies:rinkeby /home/human/work/SkillUnion/tcr
+> truffle exec --network rinkeby ./scripts/deploy_proxies.js
+
+Using network 'rinkeby'.
+
+Using RegistryFactory at:
+     0xcadbaef815819385e79d6f739ce6796563373e15
+
+Deploying proxy contracts...
+...
+Proxy contracts successfully migrated to network_id: 4
+
+TestCoin (EIP20):
+     0x4cea70aca7e6d64919410e7857bf2c403ebed531
+PLCRVoting:
+     0x06cc9c11a1eef7faf9af506f5fa25d841e8b4bd1
+Parameterizer:
+     0xefb9cdf018564fde47a39c8d91ab668d7f60a829
+The TestChain Registry (Registry):
+     0x72fe62e36185a833ad67f6295c0c4da8390bed26
+
+Dispensing 1000000000000000000000000000 tokens evenly to 10 addresses:
+
+Transferring tokens to address: 0x7AD1a95c592aCF1111cB58539647205D91f9AB16
+Transferring tokens to address: 0xd09cc3bc67e4294c4a446d8e4a2934a921410ed7
+Transferring tokens to address: 0x8FEa967fF3E8B14498BC17D8d43E8cdd614613c7
+Transferring tokens to address: 0x874Fec5f1D5045B85f46fBD2Be6264867c3D7cE5
+Transferring tokens to address: 0xf978cC95Eba88cC8869e580d282620e3b4382016
+Transferring tokens to address: 0x4fB9dEA18CDf6f737afDfc3f680Fb5500F8F893A
+Transferring tokens to address: 0xf17f52151EbEF6C7334FAD080c5704D77216b732
+Transferring tokens to address: 0xC5fdf4076b8F3A5357c5E395ab970B5B54098Fef
+Transferring tokens to address: 0x821aEa9a577a9b44299B9c15c88cf3087F3b5544
+Transferring tokens to address: 0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+~/work/SkillUnion/nonorg-ui
+human@AllDev:~/work/SkillUnion/nonorg-ui$ ./deploy-rinkeby.sh 
+~/work/SkillUnion/tcr ~/work/SkillUnion/nonorg-ui
+
+> sol-tcr@0.0.1 deploy-proxies:rinkeby /home/human/work/SkillUnion/tcr
+> truffle exec --network rinkeby ./scripts/deploy_proxies.js
+
+Using network 'rinkeby'.
+
+Using RegistryFactory at:
+     0xcadbaef815819385e79d6f739ce6796563373e15
+
+Deploying proxy contracts...
+...
+Proxy contracts successfully migrated to network_id: 4
+
+TestCoin (EIP20):
+     0x36d2ab8b067a3abe29506a0c18823973d35bb0c8
+PLCRVoting:
+     0x8fbff7693d7e24ee314d46f54406fde2951a88b8
+Parameterizer:
+     0x53a46689f9f43ff34e492bdb1e11c22d29b303ae
+Economics (Registry):
+     0xe0a3e3f462ed796f317df260091599f15aa983de
+
+Dispensing 1000000000000000000000000000 tokens evenly to 10 addresses:
+
+Transferring tokens to address: 0x7AD1a95c592aCF1111cB58539647205D91f9AB16
+Transferring tokens to address: 0xd09cc3bc67e4294c4a446d8e4a2934a921410ed7
+Transferring tokens to address: 0x8FEa967fF3E8B14498BC17D8d43E8cdd614613c7
+Transferring tokens to address: 0x874Fec5f1D5045B85f46fBD2Be6264867c3D7cE5
+Transferring tokens to address: 0xf978cC95Eba88cC8869e580d282620e3b4382016
+Transferring tokens to address: 0x4fB9dEA18CDf6f737afDfc3f680Fb5500F8F893A
+Transferring tokens to address: 0xf17f52151EbEF6C7334FAD080c5704D77216b732
+Transferring tokens to address: 0xC5fdf4076b8F3A5357c5E395ab970B5B54098Fef
+Transferring tokens to address: 0x821aEa9a577a9b44299B9c15c88cf3087F3b5544
+Transferring tokens to address: 0x627306090abaB3A6e1400e9345bC60c78a8BEf57
+~/work/SkillUnion/nonorg-ui
+human@AllDev:~/work/SkillUnion/nonorg-ui$

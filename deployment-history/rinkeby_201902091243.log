@@ -1,0 +1,56 @@
+human@AllDev:~/work/SkillUnion/tcr$ npm run deploy-rinkeby
+
+> sol-tcr@0.0.1 deploy-rinkeby /home/human/work/SkillUnion/tcr
+> truffle migrate --network rinkeby
+
+Using network 'rinkeby'.
+
+Running migration: 1_initial_migration.js
+  Deploying Migrations...
+  ... 0x07a8f3583597861df4fc0fabeca0f665f928a194d9be7de770fd1a5383261509
+  Migrations: 0x935ee1524f9fa3b8b2d01756adfdfd9e1388f761
+Saving successful migration to network...
+  ... 0x8fdd342811397a44628c059ca56979cf1869fccba5be43bce37498969d2c1972
+Saving artifacts...
+Running migration: 2_libs.js
+  Deploying DLL...
+  ... 0x8368f58db4813d47d531291fdb3ee238f53665f68e90fb10a950f21944c29299
+  DLL: 0x0bc4754ea57021e651edabf174bd9a8330fff6b9
+  Deploying AttributeStore...
+  ... 0x447dbbf3eef0d1aacf64b0b12362d9d68090d6b8fbae82b6239178de4c35ab0e
+  AttributeStore: 0xe0f292a3c5bdd9f1f6ffea3a2dfdfd62eeb4e63d
+Saving successful migration to network...
+  ... 0x3586dd6282014643713342d8b3cf9bc9f3cba05353267262847c3f73ce81f76d
+Saving artifacts...
+Running migration: 3_optional_plcr_factory.js
+  Linking DLL to PLCRFactory
+  Linking AttributeStore to PLCRFactory
+  Deploying PLCRFactory...
+  ... 0xae59f4e8d07245ae652a84da145a4a93bdee20579bcb3428bd5d02d7b430adbc
+  PLCRFactory: 0x93cf456d55ad71ab0bed778785c0527259afaf4d
+Saving successful migration to network...
+  ... 0x05e579f3e2816ecdc813e1a820fef216d5cd3136d474eda5d5d0e498e0121cbb
+Saving artifacts...
+Running migration: 4_parameterizer_factory.js
+  Deploying ParameterizerFactory...
+  ... 0xe381da4539ec65b5f1c82df5c6282a552b35f5985724962349347acc422d3ac5
+  ParameterizerFactory: 0xd5fc3e2b35b3e7cb82f0961f5ac7bf86e0cd9ff6
+Saving successful migration to network...
+  ... 0xa774c86ddb9dc619f8aeba20bcf12225a91133cc354daf4890a6abda88d43ac9
+Saving artifacts...
+Running migration: 5_registry_factory.js
+  Deploying RegistryFactory...
+  ... 0x7be27254bd08fef67019a0838236a8b34350f4cf7dc4e3188e52fdbd50e5a616
+  RegistryFactory: 0xbab4bd488a2c489b04bd867e26293ab88ab87392
+Saving successful migration to network...
+  ... 0xfe71958a14b66ad0d4f8f5eb187ef3bae3c03fbbfb8ae828fb74efe7c5d3b697
+===========
+TestCoin (EIP20):
+     0x24e2f63c476d78ebeadf6713cbd6324859925d55
+PLCRVoting:
+     0x75def9fd07db0266d6c7404689d2f8e9f9631e65
+Parameterizer:
+     0x87d4dcb478480881763373548a8027dce14e142c
+The TestChain Registry (Registry):
+     0xed02eff2622bab7d7f8e35f0bea67efa699c5703
+===========
